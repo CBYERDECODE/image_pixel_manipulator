@@ -4,7 +4,7 @@ an image manipulation toolkit using 3D NumPy array slicing, dtype casting (uint8
 
 
 
---------FEATURE ---------
+                   IMPLEMENTATION OF IMAGE PIXEL MANIPULATOR FEATURE
 
 # Medical Image Artifact Detection and Restoration Using Matrix Mathematics
 Overview
