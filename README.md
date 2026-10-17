@@ -1,22 +1,21 @@
 # image_pixel_manipulator
-A NumPy-based image manipulation toolkit using synthetic RGB images
+A NumPy-based image manipulation toolkit using synthetic RGB images 
+an image manipulation toolkit using 3D NumPy array slicing, dtype casting (uint8/float32) and boolean masks for cropping, flipping, channel extraction and brightness control
+
+
+
+--------FEATURE ---------
 
 # Medical Image Artifact Detection and Restoration Using Matrix Mathematics
-
-## Overview
-
+Overview
 Medical imaging techniques such as Magnetic Resonance Imaging (MRI) and Computed Tomography (CT) are widely used to examine internal body structures. However, medical images can sometimes contain artifacts, such as unwanted bright streaks, dark regions, or signal distortions, which may affect image quality.
-
 Traditional smoothing and blurring techniques can reduce noise but may also remove important anatomical details, including tissue boundaries and tumor margins.
-
 This project implements a **pixel-level image artifact detection and restoration algorithm using NumPy and mathematical matrix operations**. It identifies pixels matching predefined corruption patterns and reconstructs them using the values of healthy neighboring pixels while attempting to preserve surrounding image details.
 
 ## Problem Statement
 
 Artifacts in medical images can interfere with visual interpretation and reduce image quality. Applying global smoothing may unintentionally alter healthy regions.
-
 The objective of this project is to develop a localized restoration technique that:
-
 - Detects potentially corrupted pixels.
 - Creates a binary mask to distinguish damaged and healthy pixels.
 - Examines a local neighborhood around each damaged pixel.
@@ -24,7 +23,6 @@ The objective of this project is to develop a localized restoration technique th
 - Evaluates restoration quality using Peak Signal-to-Noise Ratio (PSNR).
 
 ## Objectives
-
 1. Implement image processing using array and matrix operations.
 2. Detect predefined black and white corruption patterns.
 3. Use local neighborhood-based interpolation to reconstruct damaged pixels.
