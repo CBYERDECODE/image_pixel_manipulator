@@ -1,12 +1,10 @@
-# image_pixel_manipulator
+                       image_pixel_manipulator and medical image artifact detection and restoration using matrix mathematics
 A NumPy-based image manipulation toolkit using synthetic RGB images 
 an image manipulation toolkit using 3D NumPy array slicing, dtype casting (uint8/float32) and boolean masks for cropping, flipping, channel extraction and brightness control
 
 
 
-                   IMPLEMENTATION OF IMAGE PIXEL MANIPULATOR FEATURE
-
-# Medical Image Artifact Detection and Restoration Using Matrix Mathematics
+    # Medical Image Artifact Detection and Restoration Using Matrix Mathematics
 Overview
 Medical imaging techniques such as Magnetic Resonance Imaging (MRI) and Computed Tomography (CT) are widely used to examine internal body structures. However, medical images can sometimes contain artifacts, such as unwanted bright streaks, dark regions, or signal distortions, which may affect image quality.
 Traditional smoothing and blurring techniques can reduce noise but may also remove important anatomical details, including tissue boundaries and tumor margins.
