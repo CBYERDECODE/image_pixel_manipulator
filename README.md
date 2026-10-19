@@ -1,4 +1,4 @@
-                       image_pixel_manipulator and medical image artifact detection and restoration using matrix mathematics
+               image_pixel_manipulator and medical image artifact detection and restoration using matrix mathematics
 A NumPy-based image manipulation toolkit using synthetic RGB images 
 an image manipulation toolkit using 3D NumPy array slicing, dtype casting (uint8/float32) and boolean masks for cropping, flipping, channel extraction and brightness control
 
