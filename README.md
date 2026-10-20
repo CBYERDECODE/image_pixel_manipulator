@@ -132,7 +132,7 @@ A higher PSNR generally indicates greater similarity to the reference image.
 
 ### Reported Result
 
-The current project reports a **PSNR improvement of 1.80 dB** after restoration.
+The current project reports a **PSNR improvement of 26.17 dB** after restoration.
 
 This result should be interpreted as an improvement in numerical image similarity, provided that the PSNR values were calculated against the same clean reference image before and after restoration.
 
